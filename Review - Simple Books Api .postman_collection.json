@@ -1,0 +1,30 @@
+{
+	"info": {
+		"_postman_id": "6e17d250-e7fe-4d57-87d0-2321f91ee2f3",
+		"name": "Review - Simple Books Api ",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "30457535"
+	},
+	"item": [
+		{
+			"name": "API STATUS",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://simple-books-api.glitch.me/status",
+					"protocol": "https",
+					"host": [
+						"simple-books-api",
+						"glitch",
+						"me"
+					],
+					"path": [
+						"status"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
