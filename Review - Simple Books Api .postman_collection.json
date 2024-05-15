@@ -7,24 +7,41 @@
 	},
 	"item": [
 		{
-			"name": "API STATUS",
+			"name": "Api Status",
 			"request": {
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "https://simple-books-api.glitch.me/status",
-					"protocol": "https",
+					"raw": "{{baseUrl}}status",
 					"host": [
-						"simple-books-api",
-						"glitch",
-						"me"
-					],
-					"path": [
-						"status"
+						"{{baseUrl}}status"
 					]
 				}
 			},
 			"response": []
+		},
+		{
+			"name": "List of Books",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/books",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"books"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"variable": [
+		{
+			"key": "baseUrl",
+			"value": "https://simple-books-api.glitch.me/"
 		}
 	]
 }
